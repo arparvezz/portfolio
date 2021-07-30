@@ -8,6 +8,9 @@ body {
 .lime{
     color:#00CF5D;
 }
+.bg-lime {
+    background-color: #00CF5D;
+}
 .navbar {
     background:#131e2e ;
 }
@@ -33,7 +36,7 @@ body {
 
 .my-details{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:150%;   
+    font-size:120%;   
 }
 /* this is the Download CV  button */
 
@@ -57,8 +60,24 @@ body {
 /* Icon box starts here */
 .icon-box {
     background-color: #1c293d;
-    padding: 10px 30px;
+    padding: 20px 50px;
 }
 .icon-box-img {
     width:20%;
 }
+/* Icon box Ends here */
+
+/* Skills Button starts here */
+/* Here Modifing default tablist button style - which is used in skills sections*/
+
+.nav-pills>.nav-item>.nav-link{
+    border: 2px solid #00CF5D;
+    color:#00CF5D;
+    margin-right: 4px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #00cf5d;
+}
+
+/* Skills Button Ends here */
