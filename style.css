@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+/* Reusable styles */
 .dark-bg{
     background-color: #111a28;
     color: white;
@@ -18,10 +19,20 @@ body {
 .section-title {                        /* All the heading of the section */
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size:40px;
+    margin-bottom: 40px !important;
 }
 .bg-lime {
     background-color: #00CF5D;
 }
+.margin-top-gap {
+    margin-top: 60px;
+}
+.margin-bottom-gap {
+    margin-bottom: 60px;
+}
+/* Reusable styles Ends here*/
+
 .navbar {
     background:#131e2e ;
 }
@@ -51,9 +62,12 @@ body {
     background-color:#00CF5D;
     color:white;
     padding: 10px 20px;
+    border: 2px solid #00CF5D;
 }
 .my-btn:hover {
-    color:none;
+    color:#00CF5D;
+    border:2px solid #00CF5D;
+    background-color: transparent;
 }
 /* this is the contact now button */
 .contact-now{   
@@ -61,6 +75,7 @@ body {
     color:#00CF5D;
     border:1px solid #00CF5D;
     padding: 10px 20px;
+    border: 2px solid #00CF5D;
 }
 .contact-now:hover {
     color:white;
@@ -111,3 +126,34 @@ body {
     font-weight:700;
 }
 /* Portolio Section Ends here*/
+/* About me and contact Starts here*/
+.about-me {
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 22px;
+}
+.contact-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.contact-address {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+/* About me and contact Ends here*/
+
+/* Footer Section*/
+.footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #00CF5D;
+    text-transform: uppercase;
+    font-weight:300;
+}
+.footer a {
+    text-decoration: none;
+    color: yellow;
+}
