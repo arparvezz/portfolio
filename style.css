@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: #111a28;
 }
 /* Reusable styles */
 .dark-bg{
@@ -31,6 +32,10 @@ body {
 .margin-bottom-gap {
     margin-bottom: 60px;
 }
+.section-long-gap {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 /* Reusable styles Ends here*/
 
 .navbar {
@@ -49,13 +54,17 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 30px;
-    margin-bottom: 0;
 }
 .my-name{
     font-size:70px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.work-skills {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
 }
 /* this is the Download CV  button */
 .my-btn{
@@ -63,6 +72,7 @@ body {
     color:white;
     padding: 10px 20px;
     border: 2px solid #00CF5D;
+    margin-right: 4px;
 }
 .my-btn:hover {
     color:#00CF5D;
@@ -145,15 +155,20 @@ body {
 }
 /* About me and contact Ends here*/
 
-/* Footer Section*/
+/* Footer Section starts here*/
 .footer {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #00CF5D;
-    text-transform: uppercase;
-    font-weight:300;
+    background-color: #1c293d;
+    padding: 20px 0;
+}
+.footer p {
+    margin-bottom: 0;
+    font-weight:500;
 }
 .footer a {
     text-decoration: none;
     color: yellow;
 }
+/* Footer Section Ends here*/
