@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
     background: #111a28;
@@ -161,21 +160,44 @@ body {
 
 /* Footer Section starts here*/
 .footer {
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #00CF5D;
     background-color: #1c293d;
     padding: 20px 0;
 }
 .footer p {
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
-    font-weight:500;
+    font-weight:300;
+    font-style: italic;
 }
-.footer a {
-    text-decoration: none;
-    color: yellow;
-}
+
 /* Footer Section Ends here*/
-@media screen and (max-width:990px){
+
+
+
+/* Responsive Section Starts here*/
+@media only screen and (max-width:767px){
     
+body {
+    text-align: center;
 }
+    .navbar-toggler {
+        border-color: #00CF5D;
+    }
+    .navbar-toggler-icon {
+        color:#00CF5D;
+        padding-top: 5px;
+    }
+    .col-md-4, .col-md-6 {      /* Adding Default margin bottom for .col-md-4 & .col-md-6*/
+        margin-bottom: 5%;
+    }
+    .col-md-4:last-child, .col-md-6:last-child {
+        margin-bottom: 0;  
+    }
+    footer p {
+        font-size: 50%;
+    }
+}
+
+
