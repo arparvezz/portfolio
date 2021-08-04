@@ -177,11 +177,13 @@ body {
 
 
 /* Responsive Section Starts here*/
+
+/* For Mobile - Max width = 767px */
+
 @media only screen and (max-width:767px){
-    
-body {
-    text-align: center;
-}
+    .header-section, #skills-section, #portfolio-section, #passion-section, #contact-section, .footer{
+        text-align: center;
+    }
     .navbar-toggler {
         border-color: #00CF5D;
     }
