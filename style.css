@@ -178,12 +178,14 @@ body {
 
 /* Responsive Section Starts here*/
 
-/* For Mobile - Max width = 767px */
+/*======== For MOBILE - Max width = 767px ========*/
 
 @media only screen and (max-width:767px){
+    /* text align center in mobile view  */
     .header-section, #skills-section, #portfolio-section, #passion-section, #contact-section, .footer{
         text-align: center;
     }
+    /* navigation bar icon issue fix in mobile view */
     .navbar-toggler {
         border-color: #00CF5D;
     }
@@ -191,14 +193,35 @@ body {
         color:#00CF5D;
         padding-top: 5px;
     }
-    .col-md-4, .col-md-6 {      /* Adding Default margin bottom for .col-md-4 & .col-md-6*/
+    /* adding margin bottom in mobile view */
+    .col-md-4, .col-md-6 {  
         margin-bottom: 5%;
     }
     .col-md-4:last-child, .col-md-6:last-child {
         margin-bottom: 0;  
     }
+    /* dicrease font size of footer in mobile view  */
     footer p {
         font-size: 50%;
+    }
+    /* header section font size decrease in mobile view  */
+    .sayhi {
+        font-size: 25px;
+        margin-bottom: 1px;
+    }
+    .my-name {
+        font-size: 40px;
+    }
+    /* skills tab button margin fix */
+    #pills-tab .nav-item {
+        margin-right: 3px;
+        margin-bottom: 4px;
+    }
+    .about-me {
+        font-size:19px;
+    }
+    .btn-close {
+        background-color: white;
     }
 }
 
