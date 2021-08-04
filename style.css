@@ -101,11 +101,15 @@ body {
 }
 .icon-box h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color:#00CF5D
+    font-weight: 400;
+    color:#00CF5D;
+    font-style: italic;
 }
 .icon-box-img {
     width:20%;
+    background-color: #00cf50;
+    padding: 5px 5px;
+    border-radius: 5%;
 }
 /* Icon box Ends here */
 
@@ -139,6 +143,7 @@ body {
     font-weight:700;
 }
 /* Portolio Section Ends here*/
+
 /* About me and contact Starts here*/
 .about-me {
     margin-bottom: 25px;
