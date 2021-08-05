@@ -94,6 +94,12 @@ body {
     color:white;
     border-color: white;
 }
+/* My picture section */
+
+.my-picture {
+    border: 3px solid #1e304b;
+    border-radius: 3px;
+}
 /* Icon box starts here */
 .icon-box {
     background-color: #1c293d;
@@ -182,6 +188,28 @@ body {
 
 
 /* Responsive Section Starts here*/
+
+
+/*======== For TABLET & SMALL LAPTOP - Max width = 991px ========*/
+@media only screen and (max-width: 991px){
+    /* navigation bar icon issue fix in mobile view */
+    .navbar-toggler {
+        border-color: #00CF5D;
+    }
+    .navbar-toggler-icon {
+        color:#00CF5D;
+        padding-top: 5px;
+    }
+
+    /* Icon box issue fix */
+    .icon-box {
+        padding: 20px 25px;
+    }
+    .icon-box-img {
+        padding: 4% 4%;
+        width: 19%;
+    }
+}
 
 /*======== For MOBILE - Max width = 767px ========*/
 
