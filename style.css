@@ -40,16 +40,19 @@ body {
 .navbar {
     background:#131e2e ;
 }
-.navbar-brand {
-    font-weight: 900;
-}
 .navbar-brand, .nav-link{
     color: white;
 }
 .navbar-brand:hover, .nav-link:hover {
     color:#00CF5D;
 }
-
+.navbar-nav {
+    /* margin-left: 750px; */
+}
+.navbar-nav .nav-link {
+    font-weight: 300;
+    text-transform: uppercase;
+}
 .carousel-item {
     padding: 0 120px;
 }
@@ -196,7 +199,20 @@ body {
 
 
 /* Responsive Section Starts here*/
+/* For Desktop only */
+/* Nav links rightside for Desktop only */
 
+@media only screen and (min-width: 992px) {
+    .navbar-nav {
+        margin-left: 55%;
+    }
+    .nav-link {
+        margin-left: 12%;
+    }
+    .nav-link:first-child {
+        margin-left: 0;
+    }
+}
 
 /*======== For TABLET & SMALL LAPTOP - Max width = 991px ========*/
 @media only screen and (max-width: 991px){
