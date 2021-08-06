@@ -46,9 +46,6 @@ body {
 .navbar-brand:hover, .nav-link:hover {
     color:#00CF5D;
 }
-.navbar-nav {
-    /* margin-left: 750px; */
-}
 .navbar-nav .nav-link {
     font-weight: 300;
     text-transform: uppercase;
