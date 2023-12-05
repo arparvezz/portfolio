@@ -1,132 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Karla', sans-serif;
+*/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Karla', sans-serif;
     background: #111a28;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+}
+
 /* Reusable styles */
-.dark-bg{
+.dark-bg {
     background-color: #111a28;
     color: white;
 }
-.bg-dark-text-white {                        /* For Portolio section */
+
+.bg-dark-text-white {
+    /* For Portolio section */
     background-color: #1c293d;
     /* color: white; */
 }
-.lime{
-    color:#00CF5D;
+
+.lime {
+    color: #00CF5D;
 }
-.section-title {                        /* All the heading of the section */
+
+.section-title {
+    /* All the heading of the section */
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size:40px;
+    font-size: 40px;
     margin-bottom: 40px !important;
 }
+
 .bg-lime {
     background-color: #00CF5D;
 }
+
 .margin-top-gap {
     margin-top: 60px;
 }
+
 .margin-bottom-gap {
     margin-bottom: 60px;
 }
+
 .section-long-gap {
     margin-top: 120px;
     margin-bottom: 120px;
 }
+
 /* Reusable styles Ends here*/
-.navbar {
-    background:#131e2e ;
+header {
+    background: #1f2f48;
+    border-bottom: 1px solid #1f2f48;
 }
-.navbar-brand, .nav-link{
+
+.navbar-brand,
+.nav-link {
     color: white;
 }
-.navbar-brand:hover, .nav-link:hover {
-    color:#00CF5D;
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #00CF5D;
 }
+
 .navbar-nav .nav-link {
     font-weight: 300;
     text-transform: uppercase;
 }
+
 .carousel-item {
     padding: 0 120px;
 }
-.sayhi{
+
+.sayhi {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 30px;
 }
-.my-name{
-    font-size:70px;
+
+.my-name {
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
 .work-skills {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
 }
+
 /* this is the Download CV  button */
-.my-btn{
-    background-color:#00CF5D;
-    color:white;
+.my-btn {
+    background-color: #00CF5D;
+    color: white;
     padding: 10px 20px;
     border: 2px solid #00CF5D;
     margin-right: 4px;
 }
+
 .my-btn:hover {
-    color:#00CF5D;
-    border:2px solid #00CF5D;
+    color: #00CF5D;
+    border: 2px solid #00CF5D;
     background-color: transparent;
 }
+
 /* this is the contact now button */
-.contact-now{   
-    background-color:none;
-    color:#00CF5D;
-    border:1px solid #00CF5D;
+.contact-now {
+    background-color: none;
+    color: #00CF5D;
+    border: 1px solid #00CF5D;
     padding: 10px 20px;
     border: 2px solid #00CF5D;
 }
+
 .contact-now:hover {
-    color:white;
+    color: white;
     border-color: white;
 }
+
 /* My picture section */
 
 .my-picture {
     border: 3px solid #1e304b;
     border-radius: 3px;
 }
+
 /* Icon box starts here */
 .icon-box {
     background-color: #1c293d;
     padding: 20px 50px;
 }
+
 .icon-box h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color:#00CF5D;
+    color: #00CF5D;
     font-style: italic;
 }
+
 .icon-box-img {
-    width:20%;
+    width: 20%;
     background-color: #00cf50;
     padding: 5px 5px;
     border-radius: 5%;
 }
+
 /* Icon box Ends here */
 
 /* Skills Button starts here */
 /* Here Modifing default tablist button style - which is used in skills sections*/
 
-.nav-pills>.nav-item>.nav-link{
+.nav-pills>.nav-item>.nav-link {
     border: 2px solid #00CF5D;
-    color:#00CF5D;
+    color: #00CF5D;
     margin-right: 4px;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: #fff !important;
     background-color: #00cf5d;
 }
@@ -134,19 +180,22 @@ body {
 /* Skills Button Ends here */
 
 /* Portolio Section Starts here*/
-.card .card-body .card-title{
-    color:white;
+.card .card-body .card-title {
+    color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight:700;
+    font-weight: 700;
 }
+
 .card .card-body .card-subtitle {
     color: #3bd480 !important;
 }
-.card .card-body .card-text{
-    color:white;
+
+.card .card-body .card-text {
+    color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight:700;
+    font-weight: 700;
 }
+
 /* Portolio Section Ends here*/
 
 /* About me and contact Starts here*/
@@ -157,38 +206,44 @@ body {
     color: white;
     font-size: 22px;
 }
+
 .contact-heading {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin-bottom: 0;
 }
+
 .contact-address {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin-bottom: 0;
 }
+
 .fb-link {
     text-decoration: none;
-    color:white;
+    color: white;
     transition: 0.3s;
 }
+
 .fb-link:hover {
-    color:#00cf50;
+    color: #00cf50;
 }
+
 /* About me and contact Ends here*/
 
 /* Footer Section starts here*/
 .footer {
+    margin-bottom: 0;
+
     text-align: center;
     color: #00CF5D;
     background-color: #1c293d;
     padding: 20px 0;
 }
+
 .footer p {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 0;
-    font-weight:300;
-    font-style: italic;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 20px;
 }
 
 /* Footer Section Ends here*/
@@ -203,22 +258,26 @@ body {
     .navbar-nav {
         margin-left: 55%;
     }
+
     .nav-link {
         margin-left: 12%;
     }
+
     .nav-link:first-child {
         margin-left: 0;
     }
 }
 
 /*======== For TABLET & SMALL LAPTOP - Max width = 991px ========*/
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px) {
+
     /* navigation bar icon issue fix in mobile view */
     .navbar-toggler {
         border-color: #00CF5D;
     }
+
     .navbar-toggler-icon {
-        color:#00CF5D;
+        color: #00CF5D;
         padding-top: 5px;
     }
 
@@ -226,6 +285,7 @@ body {
     .icon-box {
         padding: 20px 25px;
     }
+
     .icon-box-img {
         padding: 4% 4%;
         width: 19%;
@@ -234,49 +294,65 @@ body {
 
 /*======== For MOBILE - Max width = 767px ========*/
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px) {
+
     /* text align center in mobile view  */
-    .header-section, #skills-section, #portfolio-section, #passion-section, #contact-section, .footer{
+    .header-section,
+    #skills-section,
+    #portfolio-section,
+    #passion-section,
+    #contact-section,
+    .footer {
         text-align: center;
     }
+
     /* navigation bar icon issue fix in mobile view */
     .navbar-toggler {
         border-color: #00CF5D;
     }
+
     .navbar-toggler-icon {
-        color:#00CF5D;
+        color: #00CF5D;
         padding-top: 5px;
     }
+
     /* adding margin bottom in mobile view */
-    .col-md-4, .col-md-6 {  
+    .col-md-4,
+    .col-md-6 {
         margin-bottom: 5%;
     }
-    .col-md-4:last-child, .col-md-6:last-child {
-        margin-bottom: 0;  
+
+    .col-md-4:last-child,
+    .col-md-6:last-child {
+        margin-bottom: 0;
     }
+
     /* dicrease font size of footer in mobile view  */
     footer p {
         font-size: 50%;
     }
+
     /* header section font size decrease in mobile view  */
     .sayhi {
         font-size: 25px;
         margin-bottom: 1px;
     }
+
     .my-name {
         font-size: 40px;
     }
+
     /* skills tab button margin fix */
     #pills-tab .nav-item {
         margin-right: 3px;
         margin-bottom: 4px;
     }
+
     .about-me {
-        font-size:19px;
+        font-size: 19px;
     }
+
     .btn-close {
         background-color: white;
     }
 }
-
-
